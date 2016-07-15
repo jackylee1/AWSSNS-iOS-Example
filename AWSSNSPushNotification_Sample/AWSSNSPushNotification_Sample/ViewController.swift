@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  AWSSNSPushNotification_Sample
 //
-//  Created by 許佳航 on 2016/7/15.
-//  Copyright © 2016年 許佳航. All rights reserved.
+//  Created by Steve on 2016/7/15.
+//  Copyright © 2016年 Steve. All rights reserved.
 //
 
 import UIKit

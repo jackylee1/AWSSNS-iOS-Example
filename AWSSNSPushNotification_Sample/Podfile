@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target :’AWSSNSPushNotification_Sample’ do
+	use_frameworks!
+	pod 'AWSMobileAnalytics'
+	pod 'AWSSNS'
+	pod ‘AWSCognito’
+end

@@ -14,6 +14,7 @@
 		AA5F55A81D3880C0000C2C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5F55A61D3880C0000C2C7F /* LaunchScreen.storyboard */; };
 		AA5F55B31D3880C0000C2C7F /* AWSSNSPushNotification_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F55B21D3880C0000C2C7F /* AWSSNSPushNotification_SampleTests.swift */; };
 		AA5F55BE1D3880C0000C2C7F /* AWSSNSPushNotification_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F55BD1D3880C0000C2C7F /* AWSSNSPushNotification_SampleUITests.swift */; };
+		BBA0F83C2632588904A95CD1 /* Pods_AWSSNSPushNotification_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC553C6C327CF7A5271A1FFA /* Pods_AWSSNSPushNotification_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16025037F865E210C8503480 /* Pods-AWSSNSPushNotification_Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSNSPushNotification_Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSNSPushNotification_Sample/Pods-AWSSNSPushNotification_Sample.release.xcconfig"; sourceTree = "<group>"; };
+		58674058C5A67B2F9E1F5242 /* Pods-AWSSNSPushNotification_Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSNSPushNotification_Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSNSPushNotification_Sample/Pods-AWSSNSPushNotification_Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		AA5F559A1D3880C0000C2C7F /* AWSSNSPushNotification_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSSNSPushNotification_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5F559D1D3880C0000C2C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5F559F1D3880C0000C2C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 		AA5F55B91D3880C0000C2C7F /* AWSSNSPushNotification_SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSSNSPushNotification_SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5F55BD1D3880C0000C2C7F /* AWSSNSPushNotification_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSSNSPushNotification_SampleUITests.swift; sourceTree = "<group>"; };
 		AA5F55BF1D3880C0000C2C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5F55CC1D388815000C2C7F /* AWSSNSPushNotification_Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWSSNSPushNotification_Sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC553C6C327CF7A5271A1FFA /* Pods_AWSSNSPushNotification_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSSNSPushNotification_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA0F83C2632588904A95CD1 /* Pods_AWSSNSPushNotification_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78D31E4FC24924C8905F59DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58674058C5A67B2F9E1F5242 /* Pods-AWSSNSPushNotification_Sample.debug.xcconfig */,
+				16025037F865E210C8503480 /* Pods-AWSSNSPushNotification_Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92954762E778940F2EBC15C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC553C6C327CF7A5271A1FFA /* Pods_AWSSNSPushNotification_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA5F55911D3880C0000C2C7F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,8 @@
 				AA5F55B11D3880C0000C2C7F /* AWSSNSPushNotification_SampleTests */,
 				AA5F55BC1D3880C0000C2C7F /* AWSSNSPushNotification_SampleUITests */,
 				AA5F559B1D3880C0000C2C7F /* Products */,
+				78D31E4FC24924C8905F59DD /* Pods */,
+				92954762E778940F2EBC15C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,7 @@
 				AA5F55A41D3880C0000C2C7F /* Assets.xcassets */,
 				AA5F55A61D3880C0000C2C7F /* LaunchScreen.storyboard */,
 				AA5F55A91D3880C0000C2C7F /* Info.plist */,
+				AA5F55CC1D388815000C2C7F /* AWSSNSPushNotification_Sample-Bridging-Header.h */,
 			);
 			path = AWSSNSPushNotification_Sample;
 			sourceTree = "<group>";
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5F55C21D3880C0000C2C7F /* Build configuration list for PBXNativeTarget "AWSSNSPushNotification_Sample" */;
 			buildPhases = (
+				C7BB1FFC39DE8ED3B944A636 /* Check Pods Manifest.lock */,
 				AA5F55961D3880C0000C2C7F /* Sources */,
 				AA5F55971D3880C0000C2C7F /* Frameworks */,
 				AA5F55981D3880C0000C2C7F /* Resources */,
+				87692FB773B94501508E81CF /* Embed Pods Frameworks */,
+				B58BEA3BC4B41898EC640B23 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +222,15 @@
 				TargetAttributes = {
 					AA5F55991D3880C0000C2C7F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 672AZ8D88U;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					AA5F55AD1D3880C0000C2C7F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -250,6 +288,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87692FB773B94501508E81CF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSPushNotification_Sample/Pods-AWSSNSPushNotification_Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B58BEA3BC4B41898EC640B23 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSPushNotification_Sample/Pods-AWSSNSPushNotification_Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BB1FFC39DE8ED3B944A636 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA5F55961D3880C0000C2C7F /* Sources */ = {
@@ -399,23 +485,27 @@
 		};
 		AA5F55C31D3880C0000C2C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58674058C5A67B2F9E1F5242 /* Pods-AWSSNSPushNotification_Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AWSSNSPushNotification_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.steve.AWSSNSPushNotification-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSSNSPushNotification_Sample/AWSSNSPushNotification_Sample-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		AA5F55C41D3880C0000C2C7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16025037F865E210C8503480 /* Pods-AWSSNSPushNotification_Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AWSSNSPushNotification_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.steve.AWSSNSPushNotification-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSSNSPushNotification_Sample/AWSSNSPushNotification_Sample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +574,7 @@
 				AA5F55C41D3880C0000C2C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA5F55C51D3880C0000C2C7F /* Build configuration list for PBXNativeTarget "AWSSNSPushNotification_SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +583,7 @@
 				AA5F55C71D3880C0000C2C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA5F55C81D3880C0000C2C7F /* Build configuration list for PBXNativeTarget "AWSSNSPushNotification_SampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +592,7 @@
 				AA5F55CA1D3880C0000C2C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

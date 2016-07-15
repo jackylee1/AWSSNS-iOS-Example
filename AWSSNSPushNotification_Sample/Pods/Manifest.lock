@@ -1,0 +1,21 @@
+PODS:
+  - AWSCognito (2.4.5):
+    - AWSCore (= 2.4.5)
+  - AWSCore (2.4.5)
+  - AWSMobileAnalytics (2.4.5):
+    - AWSCore (= 2.4.5)
+  - AWSSNS (2.4.5):
+    - AWSCore (= 2.4.5)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSMobileAnalytics
+  - AWSSNS
+
+SPEC CHECKSUMS:
+  AWSCognito: 96e1762404831ffb87f67c87a5ee68fde543bb69
+  AWSCore: 2f356385bcea9b81ea47f9be0228c71697d9597d
+  AWSMobileAnalytics: 8546db78fa7f3ff66099902199fed47c68f148e3
+  AWSSNS: aaf565330d8f2f7c4f2cb13d2a20bceae8259f2f
+
+COCOAPODS: 0.39.0

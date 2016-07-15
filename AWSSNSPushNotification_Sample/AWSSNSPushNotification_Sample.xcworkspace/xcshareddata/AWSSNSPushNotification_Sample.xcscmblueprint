@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2B7A6C925020031589A782C5EE7064AB6EB05D41",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2B7A6C925020031589A782C5EE7064AB6EB05D41" : 0,
+    "CA8642789CA07377219BAE72184E0A8E9BECD631" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5930439D-8533-432C-B899-9DC2B40EF185",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2B7A6C925020031589A782C5EE7064AB6EB05D41" : "AWSSNS-iOS-Example\/",
+    "CA8642789CA07377219BAE72184E0A8E9BECD631" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AWSSNSPushNotification_Sample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AWSSNSPushNotification_Sample\/AWSSNSPushNotification_Sample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/steve870211\/AWSSNS-iOS-Example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B7A6C925020031589A782C5EE7064AB6EB05D41"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/chia_hang_hsu\/mapd14.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA8642789CA07377219BAE72184E0A8E9BECD631"
+    }
+  ]
+}

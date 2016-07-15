@@ -1,0 +1,6 @@
+framework module Pods_AWSSNSPushNotification_Sample {
+  umbrella header "Pods-AWSSNSPushNotification_Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}

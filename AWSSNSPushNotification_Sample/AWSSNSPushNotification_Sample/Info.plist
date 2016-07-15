@@ -2,6 +2,40 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AWS</key>
+	<dict>
+		<key>CredentialsProvider</key>
+		<dict>
+			<key>CognitoIdentity</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>PoolId</key>
+					<string>你的identityPoolId</string>
+					<key>Region</key>
+					<string>你的PoolID Region(eg.APNortheast1)</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>MobileAnalytics</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>AppId</key>
+				<string>你的app id</string>
+				<key>Region</key>
+				<string>你的Application Region (eg.APNortheast1)</string>
+			</dict>
+		</dict>
+		<key>SNS</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>Region</key>
+				<string>你的Application Region (eg.APNortheast1)</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -22,6 +56,11 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -43,39 +82,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>AWS</key>
-	<dict>
-		<key>CredentialsProvider</key>
-		<dict>
-			<key>CognitoIdentity</key>
-			<dict>
-				<key>Default</key>
-				<dict>
-					<key>PoolId</key>
-					<string>ap-northeast-1:3fcab19c-df1e-4cfd-9abe-60f29b26d3ed</string>
-					<key>Region</key>
-					<string>APNortheast1</string>
-				</dict>
-			</dict>
-		</dict>
-		<key>MobileAnalytics</key>
-		<dict>
-			<key>Default</key>
-			<dict>
-				<key>AppId</key>
-				<string>me.pbplus.AUOGames</string>
-				<key>Region</key>
-				<string>APNortheast1</string>
-			</dict>
-		</dict>
-		<key>SNS</key>
-		<dict>
-			<key>Default</key>
-			<dict>
-				<key>Region</key>
-				<string>APNortheast1</string>
-			</dict>
-		</dict>
-	</dict>
 </dict>
 </plist>
